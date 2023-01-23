@@ -19,4 +19,4 @@ for x in range(len(data_set.index)):
         min_dist=data_set.iloc[x]['Distance']
         min_dist_index=x
 
-print("<h1>The nearest Hospital is",data_set.iloc[min_dist_index]['Hospital'],"and it is at distance",min_dist,"km from</h1>",location)
+print("The nearest Hospital is",data_set.iloc[min_dist_index]['Hospital'],"and it is at distance",min_dist,"km from",location)
