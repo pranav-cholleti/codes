@@ -8,7 +8,7 @@ print(data_set)
 print()
 print()
 #print(data_set.iloc[0,:])
-location = input("Enter your location: ")
+#location = input("Enter your location: ")
 
 min_dist_index=-1
 min_dist=1000
@@ -20,4 +20,4 @@ for x in range(len(data_set.index)):
         min_dist=data_set.iloc[x]['Distance']
         min_dist_index=x
 
-print("The nearest Hospital is",data_set.iloc[min_dist_index]['Hospital'],"and it is at distance",min_dist,"km from",location)
+print("The nearest Hospital is",data_set.iloc[min_dist_index]['Hospital'],"and it is at distance",min_dist,"km from your current location.")
