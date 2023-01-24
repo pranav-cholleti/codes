@@ -23,3 +23,7 @@ for x in range(len(data_set.index)):
 print("The ambulance is coming from ",data_set.iloc[min_dist_index]['Hospital'])
 print("The driver name is ",data_set.iloc[min_dist_index]['Driver'],"and the ambulance is currently ",min_dist," km from your current location.")
 print("The driver contact is "data_set.iloc[min_dist_index]['Contact'])
+print(" ")
+print(" ")
+print("The hospital is booked from your selected location.")
+print("Please take care")
