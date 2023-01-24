@@ -20,9 +20,9 @@ for x in range(len(data_set.index)):
         min_dist=data_set.iloc[x]['Distance']
         min_dist_index=x
 
-print("The ambulance is coming from ",data_set.iloc[min_dist_index]['Hospital'])
+print("The ambulance is coming from ",data_set.iloc[min_dist_index]['Hospitals'])
 print("The driver name is ",data_set.iloc[min_dist_index]['Driver'],"and the ambulance is currently ",min_dist," km from your current location.")
-#print("The driver contact is  ",data_set.iloc[min_dist_index]['Contact'])
+print("The driver contact is ",data_set.iloc[min_dist_index]['Contact'],".")
 print(" ")
 print(" ")
 print("The hospital is booked from your selected location.")
