@@ -1,5 +1,5 @@
-Hospitals,Ambulances,Distance,Driver
-Govt UPHC Bachupally,0,2,Srinivas(ID:108)
-Gandhi,2,5,Prakash (ID:212)
-KIMS,1,1.8,Yogesh (ID:524)
-Mamata,2,4,Sakshith(ID:143)
+Hospitals,Ambulances,Distance,Driver,Reg
+Govt UPHC Bachupally,0,2,Srinivas(ID:108),AP23AL2456
+Gandhi,2,5,Prakash (ID:212),TS15EH2301
+KIMS,1,1.8,Yogesh (ID:524),DL10AS9635
+Mamata,2,4,Sakshith(ID:143),KT16SP3620
